@@ -1,0 +1,25 @@
+header{
+    .container{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            font-weight: 500;
+            color: #E70FAA;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            a{
+                text-decoration: none;
+                font-weight: 300;
+            }
+            .pic{
+                display: flex;
+                gap: 15px;
+            }
+        }
+    }
+}

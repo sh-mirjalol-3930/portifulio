@@ -1,0 +1,46 @@
+.row{
+    padding-top: 100px;
+    margin: 0 auto;
+    // width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text{
+        h1{
+            color: #42446E;
+            font-weight: 600;
+            font-size: 40px;
+            span{
+                color: rgb(119, 0, 255);
+                font-weight: 900;
+            }
+        }
+    }
+    .pic{
+        img{
+            border: 10px solid rgb(105, 183, 255);
+            width: 350px;
+            border-radius: 800px;
+            transition: all 0.5s ease;
+            animation-name: shadow;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+    }
+}
+
+
+
+@keyframes shadow{
+    0%{
+        box-shadow: 0 0 100px rgb(0, 153, 255);
+    }
+    50%{
+        box-shadow: 0 0 80px rgba(255, 0, 0, 0.5);
+    }
+    100%{
+        box-shadow: 0 0 110px rgb(255, 0, 242);
+    }
+}
