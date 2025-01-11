@@ -52,6 +52,14 @@ header .container .left .pic {
   display: flex;
   gap: 15px;
 }
+header .container .left .pic img {
+  width: 25px;
+  transition: all 0.2s ease;
+}
+header .container .left .pic img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
 
 .row {
   padding-top: 100px;
@@ -69,15 +77,28 @@ header .container .left .pic {
   color: rgb(119, 0, 255);
   font-weight: 900;
 }
+.row .pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  width: 380px;
+  height: 380px;
+  background: linear-gradient(180deg, rgba(0, 247, 255, 0.432), rgb(17, 0, 255), rgba(162, 0, 255, 0.76));
+}
 .row .pic img {
-  border: 10px solid rgb(105, 183, 255);
+  margin: 0 auto;
   width: 350px;
+  height: 350px;
   border-radius: 800px;
   transition: all 0.5s ease;
   animation-name: shadow;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+.row .pic:hover img {
+  transform: scale(1.1);
 }
 
 @keyframes shadow {
@@ -181,7 +202,7 @@ header .container .left .pic {
 }
 
 body {
-  background: linear-gradient(90deg, rgba(0, 162, 255, 0.568), white, white, white, rgba(183, 0, 255, 0.603));
+  background: linear-gradient(90deg, rgba(0, 255, 255, 0.432), white, rgba(162, 0, 255, 0.76));
 }
 
 .container {
@@ -198,11 +219,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(204, 0, 255, 0.425);
+  background-color: rgba(89, 0, 255, 0.479);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 10px;
-  background-color: rgba(0, 204, 255, 0.377);
+  background-color: rgba(255, 255, 255, 0.973);
   border-radius: 100px;
+  box-shadow: 0 0 100px white;
 }/*# sourceMappingURL=main.css.map */

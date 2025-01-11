@@ -19,7 +19,16 @@ header{
             .pic{
                 display: flex;
                 gap: 15px;
+                img{
+                    width: 25px;
+                    transition: all 0.2s ease;
+                }
+                img:hover{
+                    transform: scale(1.1);
+                    opacity: 0.5;
+                }
             }
+            
         }
     }
 }

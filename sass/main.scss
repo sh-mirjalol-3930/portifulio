@@ -6,8 +6,9 @@
 @import "./footer";
 
 
+
 body{
-    background: linear-gradient(90deg, rgba(0, 162, 255, 0.568),white,white,white ,rgba(183, 0, 255, 0.603));
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.432),white, rgba(162, 0, 255, 0.76));
 }
 
 .container{
@@ -23,11 +24,12 @@ body{
     width: 8px;
 }
 ::-webkit-scrollbar-track{
-    background-color: rgba(204, 0, 255, 0.425);
+    background-color: rgba(89, 0, 255, 0.479);
 }
 ::-webkit-scrollbar-thumb{
     width: 10px;
-    background-color: rgba(0, 204, 255, 0.377);
+    background-color: rgba(255, 255, 255, 0.973);
     border-radius: 100px;
+    box-shadow: 0 0 100px white;
 }
 
